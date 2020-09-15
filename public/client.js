@@ -17,6 +17,7 @@ function append(message, msgClass, position) {
     messageElement.classList.add(position, msgClass);
     messageContainer.appendChild(messageElement);
     audioJoinLeave.play();
+    scrollToBottom();
 }
 
 const sender = 'You';
