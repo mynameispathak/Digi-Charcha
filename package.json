@@ -4,8 +4,7 @@
   "description": "Web chat client using Nodejs and Socket.io",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aniket Pathak",
   "license": "ISC",
