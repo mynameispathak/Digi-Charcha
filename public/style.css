@@ -92,13 +92,13 @@ section.chat__section{
 }
 
 #messageInp{
-    width: 89%;
+    width: 83%;
     border-radius: 6px;
     height: 45px;
 }
 
 .btn{
-    width: 10%;
+    width: 15%;
     cursor: pointer;
     border-radius: 6px;
     height: 45px;
