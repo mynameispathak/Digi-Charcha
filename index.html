@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digi Charcha - Multi Client Chat</title>
+    <link rel="stylesheet" href="\style.css">
+</head>
+
+<body>
+    <section class="chat__section">
+        <nav class="brand">
+            <img class="logo" height="40" src="\logo.svg" alt="">
+            <h1>Digi Charcha</h1>
+        </nav>
+
+        <div class="container">
+            <!-- <div class="message sent">
+                <h2>Aniket: Hello kya haal hai?</h2>
+            </div>
+            <div class="message received">
+                <h2>Adi: Mast Bhai</h2>
+            </div> -->
+        </div>
+
+        <div class="send">
+            <form action="#" id="send-container">
+                <input type="text" name="messageInp" id="messageInp" placeholder="Write a message" autofocus
+                    autocomplete="off">
+                <button class="btn">Send</button>
+            </form>
+        </div>
+
+    </section>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/client.js"></script>
+
+</html>
